@@ -13,6 +13,8 @@ public class ArrayList1 {
         System.out.println("Ingrese la cantidad de cursos:");
         int cantidadCursos = leer.nextInt();
         List<Curso> cursos = new ArrayList<>();
+        
+        System.out.println("Ejemplo2");
 
         for (int i = 0; i < cantidadCursos; i++) {
             System.out.println("Ingrese nombre del curso " + (i + 1) + " :");
